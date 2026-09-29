@@ -1,16 +1,21 @@
-# React + Vite
+# AERO // Tactical Airframe Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive 3D scrollytelling web application showcasing tactical drone architecture, dynamic camera waypoints, and real-time subsystem telemetry.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework:** React + Vite
+- **3D Engine:** Three.js / React Three Fiber (`@react-three/fiber`, `@react-three/drei`)
+- **Styling:** Tailwind CSS
 
-## React Compiler
+## Quickstart
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
+# Start local development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Build for production
+npm run build```
